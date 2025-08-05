@@ -57,8 +57,10 @@ h2 {
 }
 
 h3 {
-  font-size: 16px;
-  letter-spacing: 2px;
+  color: #2c4d36;
+  font-size: 20px;
+  letter-spacing: 0px;
+  line-height: 34px;
 }
 
 p {
@@ -669,6 +671,7 @@ footer {
   }
 
 }
+
 
 
 
