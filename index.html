@@ -1,608 +1,348 @@
 <!DOCTYPE html>
 <html lang="en">
+<head>
 
-  <head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="keywords" content="">
+	<meta name="description" content="">
 
-    <meta charset="utf-8">
-    <meta name="author" content="templatemo">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
-
-    <title>LokaLaku Trip</title>
-
-    <!-- Bootstrap core CSS -->
-    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-
-
-    <!-- Additional CSS Files -->
-    <link rel="stylesheet" href="assets/css/fontawesome.css">
-    <link rel="stylesheet" href="assets/css/templatemo-snapx-photography.css">
-    <link rel="stylesheet" href="assets/css/owl.css">
-    <link rel="stylesheet" href="assets/css/animate.css">
-    <link rel="stylesheet"href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
+	<title>Snapshot HTML CSS Web Template</title>
 <!--
+Snapshot Template
+http://www.templatemo.com/tm-493-snapshot
 
-TemplateMo 576 SnapX Photography
+Zoom Slider
+https://vegas.jaysalvat.com/
 
-https://templatemo.com/tm-576-snapx-photography
-
+Caption Hover Effects
+http://tympanus.net/codrops/2013/06/18/caption-hover-effects/
 -->
-  </head>
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/animate.min.css">
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+  	<link rel="stylesheet" href="css/component.css">
+	
+    <link rel="stylesheet" href="css/owl.theme.css">
+	<link rel="stylesheet" href="css/owl.carousel.css">
+	<link rel="stylesheet" href="css/vegas.min.css">
+	<link rel="stylesheet" href="css/style.css">
 
-<body>
+	<!-- Google web font  -->
+	<link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700,300' rel='stylesheet' type='text/css'>
+	
+</head>
+<body id="top" data-spy="scroll" data-offset="50" data-target=".navbar-collapse">
 
 
-  <!-- ***** Header Area Start ***** -->
-  <header class="header-area header-sticky">
+<!-- Preloader section -->
+
+<div class="preloader">
+     <div class="sk-spinner sk-spinner-pulse"></div>
+</div>
+
+
+<!-- Navigation section  -->
+
+  <div class="navbar navbar-default navbar-fixed-top" role="navigation">
     <div class="container">
-        <div class="row">
-            <div class="col-12">
-                <nav class="main-nav">
-                    <!-- ***** Logo Start ***** -->
-                    <a href="index.html" class="logo">
-                        <img src="assets/images/logo.png" alt="SnapX Photography Template">
-                    </a>
-                    <!-- ***** Logo End ***** -->
-                    <!-- ***** Menu Start ***** -->
-                    <ul class="nav">
-                        <li><a href="index.html" class="active">Home</a></li>
-                        <li class="has-sub">
-                            <a href="javascript:void(0)">Photos &amp; Videos</a>
-                            <ul class="sub-menu">
-                                <li><a href="contests.html">Contests</a></li>
-                                <li><a href="contest-details.html">Single Contest</a></li>
-                            </ul>
-                        </li>
-                        <li><a href="categories.html">Categories</a></li>
-                        <li><a href="users.html">Users</a></li>
-                    </ul>   
-                    <div class="border-button">
-                      <a id="modal_trigger" href="#modal" class="sign-in-up"><i class="fa fa-user"></i> Sign In/Up</a>
-                    </div>
-                    <a class='menu-trigger'>
-                        <span>Menu</span>
-                    </a>
-                    <!-- ***** Menu End ***** -->
-                </nav>
-            </div>
-        </div>
+
+      <div class="navbar-header">
+        <button class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+          <span class="icon icon-bar"></span>
+          <span class="icon icon-bar"></span>
+          <span class="icon icon-bar"></span>
+        </button>
+        <a href="#top" class="navbar-brand smoothScroll">Snapshot</a>
+      </div>
+        <div class="collapse navbar-collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="#top" class="smoothScroll"><span>Home</span></a></li>
+            <li><a href="#about" class="smoothScroll"><span>About</span></a></li>
+            <li><a href="#gallery" class="smoothScroll"><span>Gallery</span></a></li>
+            <li><a href="#contact" class="smoothScroll"><span>Contact</span></a></li>
+          </ul>
+       </div>
+
     </div>
-  </header>
-  <!-- ***** Header Area End ***** -->
+  </div>
 
-  <div id="modal" class="popupContainer" style="display:none;">
-    <div class="popupHeader">
-        <span class="header_title">Login</span>
-        <span class="modal_close"><i class="fa fa-times"></i></span>
+
+<!-- Home section -->
+
+<section id="home">
+  <div class="overlay"></div>
+  <div class="container">
+    <div class="row">
+
+      <div class="col-md-offset-1 col-md-10 col-sm-12 wow fadeInUp" data-wow-delay="0.3s">
+        <h1 class="wow fadeInUp" data-wow-delay="0.6s">Let's take a snapshot</h1>
+        <p class="wow fadeInUp" data-wow-delay="0.9s">Snapshot website template is available for free download. Anyone can modify and use it for any site. Please tell your friends about <a rel="nofollow" href="http://www.templatemo.com">templatemo</a>. Thank you.</p>
+        <a href="#about" class="smoothScroll btn btn-success btn-lg wow fadeInUp" data-wow-delay="1.2s">Learn more</a>
+      </div>
+
     </div>
+  </div>
+</section>
 
-    <section class="popupBody">
-        <!-- Social Login -->
-        <div class="social_login">
-            <div class="">
-                <a href="#" class="social_box fb">
-                    <span class="icon"><i class="fab fa-facebook"></i></span>
-                    <span class="icon_title">Connect with Facebook</span>
 
-                </a>
+<!-- About section -->
 
-                <a href="#" class="social_box google">
-                    <span class="icon"><i class="fab fa-google-plus"></i></span>
-                    <span class="icon_title">Connect with Google</span>
-                </a>
-            </div>
+<section id="about">
+  <div class="container">
+    <div class="row">
 
-            <div class="centeredText">
-                <span>Or use your Email address</span>
-            </div>
+      <div class="col-md-9 col-sm-8 wow fadeInUp" data-wow-delay="0.2s">
+        <div class="about-thumb">
+          <h1>Background</h1>
+          <p>Quisque tempor bibendum dolor at volutpat. Suspendisse venenatis quam sed libero euismod feugiat. In cursus nisi vitae lectus facilisis mollis. Nullam scelerisque, quam nec iaculis vulputate.</p>
+        </div>
+      </div>
 
-            <div class="action_btns">
-                <div class="one_half"><a href="#" id="login_form" class="btn">Login</a></div>
-                <div class="one_half last"><a href="#" id="register_form" class="btn">Sign up</a></div>
-            </div>
+      <div class="col-md-3 col-sm-4 wow fadeInUp about-img" data-wow-delay="0.6s">
+        <img src="images/about-img.jpg" class="img-responsive img-circle" alt="About">
+      </div>
+
+      <div class="clearfix"></div>
+
+      <div class="col-md-12 col-sm-12 wow fadeInUp" data-wow-delay="0.3s">
+        <div class="section-title text-center">
+          <h1>Snapshot Team</h1>
+          <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h3>
+        </div>
+      </div>
+
+      <!-- team carousel -->
+      <div id="team-carousel" class="owl-carousel">
+
+      <div class="item col-md-4 col-sm-6 wow fadeInUp" data-wow-delay="0.4s">
+        <div class="team-thumb">
+          <div class="image-holder">
+            <img src="images/team-img1.jpg" class="img-responsive img-circle" alt="Mary">
+          </div>
+          <h2 class="heading">Mary, CEO</h2>
+          <p class="description">Aliquam ac justo est. Praesent feugiat cursus est.</p>
+        </div>
+      </div>
+
+      <div class="item col-md-4 col-sm-6 wow fadeInUp" data-wow-delay="0.6s">
+        <div class="team-thumb">
+          <div class="image-holder">
+            <img src="images/team-img2.jpg" class="img-responsive img-circle" alt="Jack">
+          </div>
+          <h2 class="heading">Jack, Founder</h2>
+          <p class="description">Maecenas sed diam eget risus varius blandit sit non.</p>
+        </div>
+      </div>
+
+      <div class="item col-md-4 col-sm-6 wow fadeInUp" data-wow-delay="0.8s">
+        <div class="team-thumb">
+          <div class="image-holder">
+            <img src="images/team-img3.jpg" class="img-responsive img-circle" alt="Linda">
+          </div>
+          <h2 class="heading">Linda, Manager</h2>
+          <p class="description">Phasellus nec ante in nunc molestie tincidunt ut eu diam.</p>
+        </div>
+      </div>
+
+      <div class="item col-md-4 col-sm-6 wow fadeInUp" data-wow-delay="0.8s">
+        <div class="team-thumb">
+          <div class="image-holder">
+            <img src="images/team-img4.jpg" class="img-responsive img-circle" alt="Sandy">
+          </div>
+          <h2 class="heading">Sandy, Director</h2>
+          <p class="description">Curabitur vulputate euismod neque et tincidunt.</p>
+        </div>
+      </div>
+
+      <div class="item col-md-4 col-sm-6 wow fadeInUp" data-wow-delay="0.8s">
+        <div class="team-thumb">
+          <div class="image-holder">
+            <img src="images/team-img5.jpg" class="img-responsive img-circle" alt="Lukia">
+          </div>
+          <h2 class="heading">Lukia, Fashion</h2>
+          <p class="description">Maecenas sed diam eget risus varius blandit sit.</p>
+        </div>
+      </div>
+
+      <div class="item col-md-4 col-sm-6 wow fadeInUp" data-wow-delay="0.8s">
+        <div class="team-thumb">
+          <div class="image-holder">
+            <img src="images/team-img6.jpg" class="img-responsive img-circle" alt="George">
+          </div>
+          <h2 class="heading">George, Admin</h2>
+          <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing.</p>
+        </div>
+      </div>
+
+      <div class="item col-md-4 col-sm-6 wow fadeInUp" data-wow-delay="0.8s">
+        <div class="team-thumb">
+          <div class="image-holder">
+            <img src="images/team-img7.jpg" class="img-responsive img-circle" alt="Day">
+          </div>
+          <h2 class="heading">Day, Accountant</h2>
+          <p class="description">Maecenas sed diam eget risus varius blandit sit.</p>
+        </div>
+      </div>
+
+      <div class="item col-md-4 col-sm-6 wow fadeInUp" data-wow-delay="0.8s">
+        <div class="team-thumb">
+          <div class="image-holder">
+            <img src="images/team-img8.jpg" class="img-responsive img-circle" alt="Lynn">
+          </div>
+          <h2 class="heading">Lynn, Marketing</h2>
+          <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing.</p>
+        </div>
+      </div>
+
+      </div>
+      <!-- end team carousel -->
+
+    </div>
+  </div>
+</section>
+
+
+<!-- Gallery section -->
+
+<section id="gallery">
+  <div class="container">
+    <div class="row">
+
+      <div class="col-md-offset-2 col-md-8 col-sm-12 wow fadeInUp" data-wow-delay="0.3s">
+        <div class="section-title">
+          <h1>Gallery</h1>
+          <p>Nullam scelerisque, quam nec iaculis vulputate, arcu ligula sollicitudin nisl, ac volutpat erat nulla a arcu.</p>
+        </div>
+      </div>
+
+      <ul class="grid cs-style-4">
+        <li class="col-md-6 col-sm-6">
+          <figure>
+            <div><img src="images/gallery-img1.jpg" alt="image 1"></div>
+            <figcaption>
+              <h1>Sapien arcu</h1>
+              <small>Cum sociis natoque penatibus et magnis dis parturient montes.</small>
+              <a href="#">Read More</a>
+            </figcaption>
+          </figure>
+        </li>
+
+        <li class="col-md-6 col-sm-6">
+          <figure>
+            <div><img src="images/gallery-img2.jpg" alt="image 2"></div>
+            <figcaption>
+              <h1>Aliquam erat</h1>
+              <small>Suspendisse venenatis quam sed libero euismod feugiat.</small>
+              <a href="#">Details</a>
+            </figcaption>
+          </figure>
+        </li>
+
+        <li class="col-md-6 col-sm-6">
+          <figure>
+            <div><img src="images/gallery-img3.jpg" alt="image 3"></div>
+            <figcaption>
+              <h1>Cras ante sem</h1>
+              <small>Aenean urna massa, convallis vehicula velit et, dictum pellentesque nisi.</small>
+              <a href="#">Learn More</a>
+            </figcaption>
+          </figure>
+        </li>
+
+        <li class="col-md-6 col-sm-6">
+          <figure>
+            <div><img src="images/gallery-img4.jpg" alt="image 4"></div>
+            <figcaption>
+              <h1>Sed ornare</h1>
+              <small>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</small>
+              <a href="#">Full Post</a>
+            </figcaption>
+          </figure>
+        </li>
+      </ul>
+
+    </div>
+  </div>
+</section>
+
+
+<!-- Contact section -->
+
+<section id="contact">
+  <div class="container">
+    <div class="row">
+
+       <div class="col-md-offset-1 col-md-10 col-sm-12">
+
+        <div class="col-lg-offset-1 col-lg-10 section-title wow fadeInUp" data-wow-delay="0.4s">
+          <h1>Send a message</h1>
+          <p>Nunc suscipit ante in lectus laoreet, nec pharetra diam dictum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
         </div>
 
-        <!-- Username & Password Login form -->
-        <div class="user_login">
-            <form action="" method="post">
-                <label>Email / Username</label>
-                <input name="username" type="text" id="username" />
-              <br />
+        <form action="#" method="post" class="wow fadeInUp" data-wow-delay="0.8s">
+          <div class="col-md-6 col-sm-6">
+            <input name="name" type="text" class="form-control" id="name" placeholder="Name">
+          </div>
+          <div class="col-md-6 col-sm-6">
+            <input name="email" type="email" class="form-control" id="email" placeholder="Email">
+          </div>
+          <div class="col-md-12 col-sm-12">
+            <textarea name="message" rows="6" class="form-control" id="message" placeholder="Message"></textarea>
+          </div>
+          <div class="col-md-offset-3 col-md-6 col-sm-offset-3 col-sm-6">
+            <input type="submit" class="form-control" value="SEND MESSAGE">
+          </div>
+        </form>
 
-                <label>Password</label>
-                <input name="password" type="password" id="password" />
-              <br />
+      </div>
 
-                <div class="checkbox">
-                    <input id="remember" type="checkbox" />
-                    <label for="remember">Remember me on this computer</label>
-                </div>
+    </div>
+  </div>
+</section>
 
-                <div class="action_btns">
-                    <div class="one_half"><a href="#" class="btn back_btn"><i class="fa fa-angle-double-left"></i> Back</a></div>
-                    <div class="one_half last"><button type="submit" class="btn btn_red">Login</button></div>
-                </div>
-            </form>
 
-            <a href="#" class="forgot_password">Forgot password?</a>
-        </div>
+<!-- Footer section -->
 
-        <!-- Register Form -->
-        <div class="user_register">
-            <form action="" method="post">
-                <label>Username</label>
-                <input name="username" type="text" id="username" />
-                <br />
+<footer>
+	<div class="container">
+    
+		<div class="row">
 
-                <label>Email Address</label>
-                <input name="email" type="email" id="email" />
-                <br />
+			<div class="col-md-12 col-sm-12">
+            
+                <ul class="social-icon"> 
+                    <li><a href="#" class="fa fa-facebook wow fadeInUp" data-wow-delay="0.2s"></a></li>
+                    <li><a href="#" class="fa fa-twitter wow fadeInUp" data-wow-delay="0.4s"></a></li>
+                    <li><a href="#" class="fa fa-linkedin wow fadeInUp" data-wow-delay="0.6s"></a></li>
+                    <li><a href="#" class="fa fa-instagram wow fadeInUp" data-wow-delay="0.8s"></a></li>
+                    <li><a href="#" class="fa fa-google-plus wow fadeInUp" data-wow-delay="1.0s"></a></li>
+                </ul>
 
-                <label>Password</label>
-                <input name="password" type="password" id="password" />
-                <br />
-
-                <div class="checkbox">
-                    <input id="send_updates" type="checkbox" />
-                    <label for="send_updates">Send me occasional email updates</label>
-                </div>
-
-                <div class="action_btns">
-                    <div class="one_half"><a href="#" class="btn back_btn"><i class="fa fa-angle-double-left"></i> Back</a></div>
-                    <div class="one_half last"><button type="submit" class="btn btn_red">Register</button></div>
-                </div>
-            </form>
-        </div>
+				<p class="wow fadeInUp"  data-wow-delay="1s" >Copyright &copy; 2016 Snapshot Studio | 
+                Design: <a href="https://plus.google.com/+templatemo" title="free css templates" target="_blank">Templatemo</a></p>
+                
+			</div>
+			
+		</div>
         
-    </section>
-  </div>
+	</div>
+</footer>
 
-  <!-- ***** Main Banner Area Start ***** -->
-  <div class="main-banner">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-10 offset-lg-1">
-          <div class="header-text">
-            <h2>Where <em>Every Journey </em> &amp; Finds  <em>Its Soul</em></h2>
-            <p>Loka Laku is a travel service that offers meaningful and soulful journeys across Indonesia.
-            We specialize in curated nature tours, cultural experiences, and city explorations — especially in Yogyakarta, Malang, and Bali.
-            Whether you're a global traveler seeking hidden gems, or a family looking for joyful getaways, Loka Laku walks with you every step of the way.</p><div class="buttons">
-              <div class="big-border-button">
-                <a href="contests.html">Explore More</a>
-              </div>
-              <div class="icon-button">
-                <a href="https://www.youtube.com/@AnggaWijanarko" target="_blank"><i class="fa fa-play"></i> Watch Our Video Now</a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <!-- ***** Main Banner Area End ***** -->
+<!-- Back top -->
+<a href="#" class="go-top"><i class="fa fa-angle-up"></i></a>
 
+<!-- Javascript  -->
+<script src="js/jquery.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/vegas.min.js"></script>
+<script src="js/modernizr.custom.js"></script>
+<script src="js/toucheffects.js"></script>
+<script src="js/owl.carousel.min.js"></script>
+<script src="js/smoothscroll.js"></script>
+<script src="js/wow.min.js"></script>
+<script src="js/custom.js"></script>
 
-  <section class="featured-items" id="featured-items">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-12">
-          <div class="owl-features owl-carousel" style="position: relative; z-index: 5;">
-            <div class="item">
-              <div class="thumb">
-                <img src="assets/images/featured-01.jpg" alt="">
-                <div class="hover-effect">
-                  <div class="content">
-                    <h4>Walk In The Nature <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i> <span>(4.5)</span></h4>
-                    <ul>
-                      <li><span>Contest Winner:</span> Vincent Adam</li>
-                      <li><span>Contest Author:</span> Anthony Soft</li>
-                      <li><span>Awards:</span> $1.000 + Camera Nikon</li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="item">
-              <div class="thumb">
-                <img src="assets/images/featured-02.jpg" alt="">
-                <div class="hover-effect">
-                  <div class="content">
-                    <h4>Smile In The Nature <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i> <span>(4.5)</span></h4>
-                    <ul>
-                      <li><span>Contest Winner:</span> Thomas Eddy</li>
-                      <li><span>Contest Author:</span> Anthony Soft</li>
-                      <li><span>Awards:</span> $1,200 + Canon EOS R7</li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="item">
-              <div class="thumb">
-                <img src="assets/images/featured-03.jpg" alt="">
-                <div class="hover-effect">
-                  <div class="content">
-                    <h4>Happy In The Nature <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i> <span>(4.5)</span></h4>
-                    <ul>
-                      <li><span>Contest Winner:</span> Vincent Adam</li>
-                      <li><span>Contest Author:</span> Anthony Soft</li>
-                      <li><span>Awards:</span> $1,800 + Canon EOS R6</li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="item">
-              <div class="thumb">
-                <img src="assets/images/featured-01.jpg" alt="">
-                <div class="hover-effect">
-                  <div class="content">
-                    <h4>Walk In The Nature <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i> <span>(4.5)</span></h4>
-                    <ul>
-                      <li><span>Contest Winner:</span> Thomas Eddy</li>
-                      <li><span>Contest Author:</span> Anthony Soft</li>
-                      <li><span>Awards:</span> $8,400 + Canon EOS R1</li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="item">
-              <div class="thumb">
-                <img src="assets/images/featured-02.jpg" alt="">
-                <div class="hover-effect">
-                  <div class="content">
-                    <h4>Run In The Nature <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i> <span>(4.5)</span></h4>
-                    <ul>
-                      <li><span>Contest Winner:</span> Vincent Adam</li>
-                      <li><span>Contest Author:</span> Anthony Soft</li>
-                      <li><span>Awards:</span> $5,500 + Canon EOS R3</li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="item">
-              <div class="thumb">
-                <img src="assets/images/featured-03.jpg" alt="">
-                <div class="hover-effect">
-                  <div class="content">
-                    <h4>Stay In The Nature <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i> <span>(4.5)</span></h4>
-                    <ul>
-                      <li><span>Contest Winner:</span> Thomas Eddy</li>
-                      <li><span>Contest Author:</span> Anthony Soft</li>
-                      <li><span>Awards:</span> $4,400 + Canon EOS R5</li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="item">
-              <div class="thumb">
-                <img src="assets/images/featured-01.jpg" alt="">
-                <div class="hover-effect">
-                  <div class="content">
-                    <h4>Walk In The Nature <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i> <span>(4.5)</span></h4>
-                    <ul>
-                      <li><span>Contest Winner:</span> Vincent Adam</li>
-                      <li><span>Contest Author:</span> Anthony Soft</li>
-                      <li><span>Awards:</span> $3,800 + Canon EOS R6</li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="item">
-              <div class="thumb">
-                <img src="assets/images/featured-02.jpg" alt="">
-                <div class="hover-effect">
-                  <div class="content">
-                    <h4>Shoot In The Nature <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i> <span>(4.5)</span></h4>
-                    <ul>
-                      <li><span>Contest Winner:</span> Vincent Adam</li>
-                      <li><span>Contest Author:</span> Anthony Soft</li>
-                      <li><span>Awards:</span> $2,400 + Canon EOS R7</li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="item">
-              <div class="thumb">
-                <img src="assets/images/featured-03.jpg" alt="">
-                <div class="hover-effect">
-                  <div class="content">
-                    <h4>Fly In The Nature <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i> <span>(4.5)</span></h4>
-                    <ul>
-                      <li><span>Contest Winner:</span> Vincent Adam</li>
-                      <li><span>Contest Author:</span> Anthony Soft</li>
-                      <li><span>Awards:</span> $1,200 + Canon EOS R10</li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-
-  <section class="popular-categories">
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col-lg-6">
-          <div class="section-heading">
-            <h6>Our Categories</h6>
-            <h4>Check Out <em>Popular</em> Contest <em>Categories</em></h4>
-          </div>
-        </div>
-        <div class="col-lg-6">
-          <div class="main-button">
-            <a href="categories.html">Discover All Categories</a>
-          </div>
-        </div>
-        <div class="col-lg-3 col-sm-6">
-          <div class="popular-item">
-            <div class="top-content">
-              <div class="icon">
-                <img src="assets/images/icon-01.png" alt="">
-              </div>
-              <div class="right">
-                <h4>Nature Pic Contest</h4>
-                <span><em>126</em> Available Contests</span>
-              </div>
-            </div>
-            <div class="thumb">
-              <img src="assets/images/popular-01.png" alt="">
-              <span class="category">Top Contest</span>
-              <span class="likes"><i class="fa fa-heart"></i> 256</span>
-            </div>
-            <div class="border-button">
-              <a href="contest-details.html">Browse Nature Pic Contests</a>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-3 col-sm-6">
-          <div class="popular-item">
-            <div class="top-content">
-              <div class="icon">
-                <img src="assets/images/icon-02.png" alt="">
-              </div>
-              <div class="right">
-                <h4>Random Pic Contest</h4>
-                <span><em>116</em> Available Contests</span>
-              </div>
-            </div>
-            <div class="thumb">
-              <img src="assets/images/popular-02.png" alt="">
-              <span class="category">Top Contest</span>
-              <span class="likes"><i class="fa fa-heart"></i> 256</span>
-            </div>
-            <div class="border-button">
-              <a href="contest-details.html">Browse Random Pic Contests</a>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-3 col-sm-6">
-          <div class="popular-item">
-            <div class="top-content">
-              <div class="icon">
-                <img src="assets/images/icon-03.png" alt="">
-              </div>
-              <div class="right">
-                <h4>Portrait Pic Contest</h4>
-                <span><em>164</em> Available Contests</span>
-              </div>
-            </div>
-            <div class="thumb">
-              <img src="assets/images/popular-03.png" alt="">
-              <span class="category">Top Contest</span>
-              <span class="likes"><i class="fa fa-heart"></i> 256</span>
-            </div>
-            <div class="border-button">
-              <a href="contest-details.html">Browse Portrait Pic Contests</a>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-3 col-sm-6">
-          <div class="popular-item">
-            <div class="top-content">
-              <div class="icon">
-                <img src="assets/images/icon-04.png" alt="">
-              </div>
-              <div class="right">
-                <h4>Space Pic Contest</h4>
-                <span><em>135</em> Available Contests</span>
-              </div>
-            </div>
-            <div class="thumb">
-              <img src="assets/images/popular-04.png" alt="">
-              <span class="category">Top Contest</span>
-              <span class="likes"><i class="fa fa-heart"></i> 256</span>
-            </div>
-            <div class="border-button">
-              <a href="contest-details.html">Browse Space Pic Contests</a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <section class="closed-contests">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-12">
-          <div class="section-heading text-center">
-            <h6>Closed Photography Contests</h6>
-            <h4><em>Previous Contests</em> With Handpicked <em>Winners</em></h4>
-          </div>
-        </div>
-        <div class="col-lg-12">
-          <div class="owl-features owl-carousel" style="position: relative; z-index: 5;">
-            <div class="item">
-              <div class="closed-item">
-                <div class="thumb">
-                  <img src="assets/images/closed-01.jpg" alt="">
-                  <span class="winner"><em>Winner:</em> Anthony Soft</span>
-                  <span class="price"><em>Award :</em> $1,600</span>
-                </div>
-                <div class="down-content">
-                  <div class="row">
-                    <div class="col-7">
-                      <h4>88 Participants <br><span>Number Of Artists</span></h4>
-                    </div>
-                    <div class="col-5">
-                      <h4 class="pics">320 Pictures <br><span>Submited Pics</span></h4>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="item">
-              <div class="closed-item">
-                <div class="thumb">
-                  <img src="assets/images/closed-02.jpg" alt="">
-                  <span class="winner"><em>Winner:</em> Anthony Soft</span>
-                  <span class="price"><em>Award :</em> $4,200</span>
-                </div>
-                <div class="down-content">
-                  <div class="row">
-                    <div class="col-7">
-                      <h4>96 Participants <br><span>Number Of Artists</span></h4>
-                    </div>
-                    <div class="col-5">
-                      <h4 class="pics">410 Pictures <br><span>Submited Pics</span></h4>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="item">
-              <div class="closed-item">
-                <div class="thumb">
-                  <img src="assets/images/closed-03.jpg" alt="">
-                  <span class="winner"><em>Winner:</em> Anthony Soft</span>
-                  <span class="price"><em>Award :</em> $3,200</span>
-                </div>
-                <div class="down-content">
-                  <div class="row">
-                    <div class="col-7">
-                      <h4>74 Participants <br><span>Number Of Artists</span></h4>
-                    </div>
-                    <div class="col-5">
-                      <h4 class="pics">284 Pictures <br><span>Submited Pics</span></h4>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-12">
-          <div class="border-button text-center">
-            <a href="contests.html">Browse Open Contests</a>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <section class="pricing-plans">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-12">
-          <div class="section-heading text-center">
-            <h6>Our Pricing</h6>
-            <h4>Photography <em>Contest Plans</em> and Price <em>Awards</em></h4>
-          </div>
-        </div>
-        <div class="col-lg-4">
-          <div class="pricing-item">
-            <img src="assets/images/pricing-01.jpg" alt="">
-            <h4>Basic Plan</h4>
-            <ul class="first-plan">
-              <li>Lorem Ipsum Dolores Sonte</li>
-              <li>Songe Lorem Ipsum Dol</li>
-              <li>Matrios Venga Heptuss</li>
-              <li>Denim Sriracha Kogi</li>
-              <li>Digital Photography Awards</li>
-            </ul>
-            <span class="price">$25 USD</span>
-            <div class="border-button">
-              <a href="#">Choose This Plan</a>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-4">
-          <div class="pricing-item">
-            <img src="assets/images/pricing-02.jpg" alt="">
-            <h4>Standard Plan</h4>
-            <ul class="second-plan">
-              <li>Lorem Ipsum Dolores Sonte</li>
-              <li>Songe Lorem Ipsum Dol</li>
-              <li>Matrios Venga Heptuss</li>
-              <li>Denim Sriracha Kogi</li>
-              <li>Digital Photography Awards</li>
-            </ul>
-            <span class="price">$45 USD</span>
-            <div class="border-button">
-              <a href="#">Choose This Plan</a>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-4">
-          <div class="pricing-item">
-            <img src="assets/images/pricing-03.jpg" alt="">
-            <h4>Advanced Plan</h4>
-            <ul class="third-plan">
-              <li>Lorem Ipsum Dolores Sonte</li>
-              <li>Songe Lorem Ipsum Dol</li>
-              <li>Matrios Venga Heptuss</li>
-              <li>Denim Sriracha Kogi</li>
-              <li>Digital Photography Awards</li>
-            </ul>
-            <span class="price">$85 USD</span>
-            <div class="border-button">
-              <a href="#">Choose This Plan</a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <footer>
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-12">
-          <p>Copyright © 2048 <a href="#">SnapX</a> Photo Contest Co., Ltd. All rights reserved. 
-          
-          Design: <a title="CSS Templates" rel="sponsored" href="https://templatemo.com/page/1" target="_blank">TemplateMo</a></p>
-        </div>
-      </div>
-    </div>
-  </footer>
-
-  <!-- Scripts -->
-  <!-- Bootstrap core JavaScript -->
-  <script src="vendor/jquery/jquery.min.js"></script>
-  <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
-
-  <script src="assets/js/isotope.min.js"></script>
-  <script src="assets/js/owl-carousel.js"></script>
-
-  <script src="assets/js/tabs.js"></script>
-  <script src="assets/js/popup.js"></script>
-  <script src="assets/js/custom.js"></script>
-
-  </body>
-
+</body>
 </html>
-
-
-
-
