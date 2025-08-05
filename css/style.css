@@ -1,63 +1,49 @@
 .navbar {
-  padding: 10px 0;
   background-color: #fff;
   border-bottom: 1px solid #ccc;
+  padding: 10px 0;
 }
 
 .navbar-brand img {
-  height: 50px; /* Ubah sesuai ukuran logo */
+  height: 50px;
   width: auto;
+  display: block;
 }
 
-.navbar-right {
+.navbar-menu {
   float: right;
+  margin-top: 15px;
 }
 
 .navbar-nav {
+  list-style: none;
+  margin: 0;
+  padding: 0;
   display: flex;
   gap: 30px;
   align-items: center;
-  margin-top: 10px;
+}
+
+.navbar-nav li {
+  display: inline-block;
 }
 
 .navbar-nav li a {
   color: #333;
+  text-decoration: none;
   font-weight: bold;
   text-transform: uppercase;
-  text-decoration: none;
-  padding: 10px 0;
+  padding: 10px;
   border-bottom: 2px solid transparent;
-  transition: border-color 0.3s;
+  transition: 0.3s;
 }
 
 .navbar-nav li a:hover,
 .navbar-nav li a:focus,
 .navbar-nav li.active a {
-  border-bottom: 2px solid #204b36; /* Warna underline aktif */
+  border-bottom: 2px solid #204b36;
 }
 
-
-.navbar-brand img {
-  height: 150px;
-  width: auto;
-}
-
-.logo img {
-  width: 150px;
-  height: auto;
-}
-
-.navbar-brand.center-logo {
-  position: absolute;
-  left: 50%;
-  transform: translateX(-50%);
-  top: 10px;
-}
-
-.navbar-brand.center-logo img {
-  height: 40px;
-  width: auto;
-}
 
 /* Body 
 ------------------------------------- */
@@ -717,6 +703,7 @@ footer {
   }
 
 }
+
 
 
 
