@@ -14,6 +14,18 @@ http://www.templatemo.com/tm-493-snapshot
   height: auto;
 }
 
+.navbar-brand.center-logo {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 10px;
+}
+
+.navbar-brand.center-logo img {
+  height: 40px;
+  width: auto;
+}
+
 /* Body 
 ------------------------------------- */
 body {
@@ -672,6 +684,7 @@ footer {
   }
 
 }
+
 
 
 
