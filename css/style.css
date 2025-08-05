@@ -1,47 +1,14 @@
-.navbar {
-  background-color: #fff;
-  border-bottom: 1px solid #ccc;
-  padding: 10px 0;
-}
+/*
 
-.navbar-brand img {
-  height: 50px;
-  width: auto;
-  display: block;
-}
+Snapshot Template
+http://www.templatemo.com/tm-493-snapshot
 
-.navbar-menu {
-  float: right;
-  margin-top: 15px;
-}
-
-.navbar-nav {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  display: flex;
-  gap: 30px;
-  align-items: center;
-}
-
-.navbar-nav li {
-  display: inline-block;
-}
-
-.navbar-nav li a {
-  color: #333;
-  text-decoration: none;
-  font-weight: bold;
-  text-transform: uppercase;
-  padding: 10px;
-  border-bottom: 2px solid transparent;
-  transition: 0.3s;
-}
-
-.navbar-nav li a:hover,
-.navbar-nav li a:focus,
-.navbar-nav li.active a {
-  border-bottom: 2px solid #204b36;
+*/
+/* Logo Header 
+------------------------------------- */
+logo {
+  width: 150px; /* atau sesuai kebutuhan */
+  height: auto; /* biar tetap proporsional */
 }
 
 
@@ -705,32 +672,5 @@ footer {
 }
 
 
-/* MOBILE IMPROVEMENT: Center logo & menu on small screens */
-@media (min-width: 769px) {
-  .navbar .container {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-  }
 
-  .navbar-header {
-    flex-shrink: 0;
-  }
 
-  .navbar-right {
-    flex-grow: 1;
-    text-align: right;
-  }
-
-  .navbar-nav {
-    display: inline-flex;
-    gap: 30px;
-    margin: 0;
-    padding: 0;
-    align-items: center;
-  }
-
-  .navbar-nav li {
-    display: inline-block;
-  }
-}
