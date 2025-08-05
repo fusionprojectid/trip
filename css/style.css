@@ -4,6 +4,11 @@ Snapshot Template
 http://www.templatemo.com/tm-493-snapshot
 
 */
+.navbar-brand img {
+  height: 40px;
+  width: auto;
+}
+
 .logo img {
   width: 150px;
   height: auto;
@@ -667,6 +672,7 @@ footer {
   }
 
 }
+
 
 
 
