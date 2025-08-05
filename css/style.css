@@ -705,53 +705,32 @@ footer {
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
 /* MOBILE IMPROVEMENT: Center logo & menu on small screens */
-@media (max-width: 768px) {
+@media (min-width: 769px) {
+  .navbar .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
   .navbar-header {
-    width: 100%;
-    text-align: center;
-    margin-bottom: 10px;
-  }
-
-  .navbar-header .navbar-brand {
-    float: none !important;
-    display: inline-block;
-  }
-
-  .navbar-header .navbar-brand img {
-    margin: 0 auto;
+    flex-shrink: 0;
   }
 
   .navbar-right {
-    float: none !important;
-    text-align: center;
-    margin-top: 10px;
-    border-top: 1px solid #ccc;
-    padding-top: 10px;
+    flex-grow: 1;
+    text-align: right;
   }
 
   .navbar-nav {
-    flex-direction: column;
-    gap: 10px;
+    display: inline-flex;
+    gap: 30px;
+    margin: 0;
+    padding: 0;
+    align-items: center;
   }
 
   .navbar-nav li {
-    display: block;
-  }
-
-  .navbar-nav li a {
     display: inline-block;
-    padding: 10px 0;
   }
 }
