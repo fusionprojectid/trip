@@ -4,7 +4,10 @@ Snapshot Template
 http://www.templatemo.com/tm-493-snapshot
 
 */
-
+.logo img {
+  width: 150px;
+  height: auto;
+}
 
 /* Body 
 ------------------------------------- */
@@ -664,6 +667,7 @@ footer {
   }
 
 }
+
 
 
 
