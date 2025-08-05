@@ -43,7 +43,7 @@ h1,h2,h3,h4 {
 h1 {
   font-size: 2rem;
   line-height: 3rem;
-  letter-spacing: 12px;
+  letter-spacing: 0px;
   text-transform: uppercase;
   padding-bottom: 8px;
 }
@@ -52,19 +52,19 @@ h2 {
   color: #e35536;
   font-size: 1.2rem;
   font-weight: bold;
-  letter-spacing: 4px;
+  letter-spacing: 0px;
   text-transform: uppercase;
 }
 
 h3 {
   font-size: 14px;
-  letter-spacing: 4px;
+  letter-spacing: 0px;
 }
 
 p {
   color: #2c4d36;
   font-size: 20px;
-  letter-spacing: 1px;
+  letter-spacing: 0px;
   line-height: 34px;
 }
 
@@ -669,6 +669,7 @@ footer {
   }
 
 }
+
 
 
 
