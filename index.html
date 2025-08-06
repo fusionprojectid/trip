@@ -322,38 +322,49 @@ http://tympanus.net/codrops/2013/06/18/caption-hover-effects/
 
 
 <!-- Contact section -->
-
 <section id="contact">
   <div class="container">
     <div class="row">
 
-       <div class="col-md-offset-1 col-md-10 col-sm-12">
+      <div class="col-md-offset-1 col-md-10 col-sm-12">
 
         <div class="col-lg-offset-1 col-lg-10 section-title wow fadeInUp" data-wow-delay="0.4s">
-          <h1>Send a message</h1>
+          <h1>Send a Message</h1>
           <p>If you'd like to visit these attractions, send us a message. Get great deals on every destination you choose.</p>
         </div>
 
-        <form action="#" method="post" class="wow fadeInUp" data-wow-delay="0.8s">
+        <!-- Formspree Contact Form -->
+        <form action="https://formspree.io/f/mldlpwzr" method="POST" class="wow fadeInUp" data-wow-delay="0.8s">
           <div class="col-md-6 col-sm-6">
-            <input name="name" type="text" class="form-control" id="name" placeholder="Name">
+            <input name="name" type="text" class="form-control" placeholder="Your Name" required>
           </div>
           <div class="col-md-6 col-sm-6">
-            <input name="email" type="email" class="form-control" id="email" placeholder="Email">
+            <input name="email" type="email" class="form-control" placeholder="Your Email" required>
           </div>
           <div class="col-md-12 col-sm-12">
-            <textarea name="message" rows="6" class="form-control" id="message" placeholder="Message"></textarea>
+            <textarea name="message" rows="6" class="form-control" placeholder="Your Message" required></textarea>
           </div>
           <div class="col-md-offset-3 col-md-6 col-sm-offset-3 col-sm-6">
-            <input type="submit" class="form-control" value="SEND MESSAGE">
+            <button type="submit" class="form-control btn btn-primary">Send Message</button>
           </div>
         </form>
+
+        <!-- WhatsApp Button -->
+        <div class="col-md-offset-3 col-md-6 col-sm-offset-3 col-sm-6 text-center wow fadeInUp" data-wow-delay="1s" style="margin-top: 20px;">
+          <a href="https://wa.me/6281331421031?text=Hi%20LokaLaku%20Trip%2C%20I%27m%20interested%20in%20your%20tour%20packages!" 
+             target="_blank" 
+             class="btn btn-success btn-lg" 
+             style="width: 100%; font-size: 18px;">
+            <i class="fa fa-whatsapp"></i> Contact via WhatsApp
+          </a>
+        </div>
 
       </div>
 
     </div>
   </div>
 </section>
+
 
 
 <!-- Footer section -->
@@ -398,4 +409,5 @@ http://tympanus.net/codrops/2013/06/18/caption-hover-effects/
 <script src="js/custom.js"></script>
 
 </body>
+
 </html>
